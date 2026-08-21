@@ -1,0 +1,19 @@
+# Artefatos de build (nunca compilamos "sujo", misturado ao codigo-fonte).
+# Todo executavel nasce dentro de build/, entao esta linha ja o cobre.
+build/
+*.o
+*.obj
+*.exe
+
+# Shaders compilados e fontes gerados em tempo de execucao
+*.spv
+tri.vert
+tri.frag
+
+# Saidas de render
+*.ppm
+*.png
+
+# Sistema
+.DS_Store
+Thumbs.db
